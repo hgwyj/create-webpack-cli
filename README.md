@@ -1,2 +1,2 @@
 # `create-webpack-cli`
-webpack4脚手架
+创建一个webpack4入门脚手架
