@@ -1,0 +1,38 @@
+{
+  "name": "@perfecthg/create-webpack-cli",
+  "version": "1.0.0",
+  "description": "create webpack cli",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "@perfecthg/create-webpack-cli": "bin/create-webpack-cli",
+    "create-webpack-cli": "bin/create-webpack-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "creat-webpack-project",
+    "usage"
+  ],
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "author": "perfecthg",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "execa": "^3.2.0",
+    "inquirer": "^7.0.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
