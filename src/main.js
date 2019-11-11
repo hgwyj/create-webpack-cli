@@ -13,7 +13,7 @@ const copy = promisify(ncp);
 async function copyTemplateFiles(options) {
     return copy(options.templateDirectory,
         options.targetDirectory, {
-            clobber: false,
+            clobber: false, //if set false will not overwrite destination if exits
         });
 };
 
