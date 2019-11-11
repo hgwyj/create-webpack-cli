@@ -46,8 +46,7 @@ export async function createProject(options) {
     } catch (err) {
         console.error('%s Invalid template name', chalk.red.bold('ERROR'));
         process.exit(1);
-    }
-    ;
+    };
     const tasks = new Listr([
         {
             title: 'Copy project files',
