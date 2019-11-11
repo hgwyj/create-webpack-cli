@@ -61,6 +61,7 @@ export async function createProject(options) {
             title: 'Install dependencies',
             task: () =>
                 projectInstall({
+                    prefer: 'npm',
                     cwd: options.targetDirectory,
                 }),
             skip: () =>
